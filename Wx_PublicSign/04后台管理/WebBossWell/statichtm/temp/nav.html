@@ -1,0 +1,73 @@
+﻿<!-- list -->
+<ul class="nav">
+
+    <li class="hidden-folded padder m-t m-b-sm text-muted text-xs">
+        <span>系统权限</span>
+    </li>
+
+    <li ng-class="{active:$state.includes('sys')}">
+        <a class="auto">
+            <span class="pull-right text-muted">
+                <i class="fa fa-fw fa-angle-right text"></i>
+                <i class="fa fa-fw fa-angle-down text-active"></i>
+            </span>
+            <i class="glyphicon glyphicon-edit"></i>
+            <span>权限配置</span>
+        </a>
+        <ul class="nav nav-sub dk">
+            <li class="nav-sub-header">
+                <a>
+                    <span>权限配置</span>
+                </a>
+            </li>
+            <li ui-sref-active="active">
+                <a ui-sref="sys.menumodule">
+                    <span>菜单模块</span>
+                </a>
+            </li>
+            <li ui-sref-active="active">
+                <a ui-sref="sys.adminuser">
+                    <span>后台用户</span>
+                </a>
+            </li>
+            <li ui-sref-active="active">
+                <a ui-sref="sys.role">
+                    <span>系统角色</span>
+                </a>
+            </li>
+            <li ui-sref-active="active">
+                <a ui-sref="sys.roleauthor">
+                    <span>维护角色权限</span>
+                </a>
+            </li>
+        </ul>
+    </li>
+
+    <li class="hidden-folded padder m-t m-b-sm text-muted text-xs">
+        <span>系统消息</span>
+    </li>
+
+    <li ng-class="{active:$state.includes('msg')}">
+        <a class="auto">
+            <span class="pull-right text-muted">
+                <i class="fa fa-fw fa-angle-right text"></i>
+                <i class="fa fa-fw fa-angle-down text-active"></i>
+            </span>
+            <i class="glyphicon glyphicon-signal"></i>
+            <span>消息提醒</span>
+        </a>
+        <ul class="nav nav-sub dk">
+            <li class="nav-sub-header">
+                <a>
+                    <span>消息提醒</span>
+                </a>
+            </li>
+            <li ui-sref-active="active">
+                <a ui-sref="msg.logs">
+                    <span>系统日志</span>
+                </a>
+            </li>
+        </ul>
+    </li>
+</ul>
+<!-- / list -->

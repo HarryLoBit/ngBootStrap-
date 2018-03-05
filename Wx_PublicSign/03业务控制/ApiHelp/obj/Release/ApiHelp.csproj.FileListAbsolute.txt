@@ -1,0 +1,6 @@
+D:\C#\框架\Wx_PublicSign\03业务控制\ApiHelp\bin\Release\ApiHelp.dll
+D:\C#\框架\Wx_PublicSign\03业务控制\ApiHelp\bin\Release\ApiHelp.pdb
+D:\C#\框架\Wx_PublicSign\03业务控制\ApiHelp\bin\Release\Newtonsoft.Json.dll
+D:\C#\框架\Wx_PublicSign\03业务控制\ApiHelp\bin\Release\Newtonsoft.Json.xml
+D:\C#\框架\Wx_PublicSign\03业务控制\ApiHelp\obj\Release\ApiHelp.dll
+D:\C#\框架\Wx_PublicSign\03业务控制\ApiHelp\obj\Release\ApiHelp.pdb

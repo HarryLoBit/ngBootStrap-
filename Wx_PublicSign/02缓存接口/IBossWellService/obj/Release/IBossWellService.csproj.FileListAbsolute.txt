@@ -1,0 +1,9 @@
+D:\C#\框架\Wx_PublicSign\02缓存接口\IBossWellService\bin\Release\IBossWellService.dll
+D:\C#\框架\Wx_PublicSign\02缓存接口\IBossWellService\bin\Release\IBossWellService.pdb
+D:\C#\框架\Wx_PublicSign\02缓存接口\IBossWellService\bin\Release\SugarModel.dll
+D:\C#\框架\Wx_PublicSign\02缓存接口\IBossWellService\bin\Release\Chloe.dll
+D:\C#\框架\Wx_PublicSign\02缓存接口\IBossWellService\bin\Release\SugarModel.pdb
+D:\C#\框架\Wx_PublicSign\02缓存接口\IBossWellService\bin\Release\Chloe.xml
+D:\C#\框架\Wx_PublicSign\02缓存接口\IBossWellService\obj\Release\IBossWellService.csprojResolveAssemblyReference.cache
+D:\C#\框架\Wx_PublicSign\02缓存接口\IBossWellService\obj\Release\IBossWellService.dll
+D:\C#\框架\Wx_PublicSign\02缓存接口\IBossWellService\obj\Release\IBossWellService.pdb

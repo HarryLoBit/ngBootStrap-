@@ -1,0 +1,80 @@
+﻿<div ng-controller="MenuModuleAditCtrl">
+    <div class="wrapper-md">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                编辑菜单
+            </div>
+            <div class="panel-body">
+                <form class="form-horizontal" method="post" ng-submit="Save()">
+
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label" for="input-id-1">菜单名称</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" ng-model="Model.MenuName">
+                        </div>
+                    </div>
+                    <div class="line line-dashed b-b line-lg pull-in"></div>
+
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label" for="input-id-1">图标</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" ng-model="Model.Icon">
+                        </div>
+                    </div>
+                    <div class="line line-dashed b-b line-lg pull-in"></div>
+
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label" for="input-id-1">路由</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" ng-model="Model.Route">
+                        </div>
+                    </div>
+                    <div class="line line-dashed b-b line-lg pull-in"></div>
+
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label" for="input-id-1">排序</label>
+                        <div class="col-sm-10">
+                            <input ui-jq="TouchSpin" type="text" ng-model="Model.Sort" class="form-control" data-min='0' data-max="20" data-verticalbuttons="true" data-verticalupclass="fa fa-caret-up" data-verticaldownclass="fa fa-caret-down">
+                        </div>
+                    </div>
+                    <div class="line line-dashed b-b line-lg pull-in"></div>
+
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label" for="input-id-1">父级菜单</label>
+                        <div class="col-sm-10">
+                            <select ui-jq="chosen" multiple class="w-md" ng-model="Model.ParentId" ng-options="o.key as o.value for o in ParentMenuJson">
+                            </select>
+                        </div>
+                    </div>
+                    <div class="line line-dashed b-b line-lg pull-in"></div>
+
+
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label" for="input-id-1">是否启用</label>
+                        <div class="col-sm-10">
+                            <label class="i-switch i-switch-md bg-info m-t-xs m-r">
+                                <input type="checkbox" ng-model="Model.Enable">
+                                <i></i>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="line line-dashed b-b line-lg pull-in"></div>
+
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label" for="input-id-1">备注</label>
+                        <div class="col-sm-10">
+                            <textarea class="form-control" rows="6" placeholder="Type your message" ng-model="Model.Remark"></textarea>
+                        </div>
+                    </div>
+                    <div class="line line-dashed b-b line-lg pull-in"></div>
+
+                    <div class="form-group">
+                        <div class="col-sm-4 col-sm-offset-2">
+                            <button type="submit" class="btn btn-primary">保存</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,8 @@
+D:\C#\框架\Wx_PublicSign\02缓存接口\IBossWellService\bin\Debug\IBossWellService.dll
+D:\C#\框架\Wx_PublicSign\02缓存接口\IBossWellService\bin\Debug\IBossWellService.pdb
+D:\C#\框架\Wx_PublicSign\02缓存接口\IBossWellService\bin\Debug\SugarModel.dll
+D:\C#\框架\Wx_PublicSign\02缓存接口\IBossWellService\bin\Debug\Newtonsoft.Json.dll
+D:\C#\框架\Wx_PublicSign\02缓存接口\IBossWellService\bin\Debug\SugarModel.pdb
+D:\C#\框架\Wx_PublicSign\02缓存接口\IBossWellService\obj\Debug\IBossWellService.csprojResolveAssemblyReference.cache
+D:\C#\框架\Wx_PublicSign\02缓存接口\IBossWellService\obj\Debug\IBossWellService.dll
+D:\C#\框架\Wx_PublicSign\02缓存接口\IBossWellService\obj\Debug\IBossWellService.pdb

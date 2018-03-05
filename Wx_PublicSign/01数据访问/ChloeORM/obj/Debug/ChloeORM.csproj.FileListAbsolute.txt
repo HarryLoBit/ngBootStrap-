@@ -1,0 +1,16 @@
+D:\C#\框架\Wx_PublicSign\01数据访问\ChloeORM\bin\Debug\ChloeORM.dll
+D:\C#\框架\Wx_PublicSign\01数据访问\ChloeORM\bin\Debug\ChloeORM.pdb
+D:\C#\框架\Wx_PublicSign\01数据访问\ChloeORM\bin\Debug\ApiHelp.dll
+D:\C#\框架\Wx_PublicSign\01数据访问\ChloeORM\bin\Debug\Chloe.dll
+D:\C#\框架\Wx_PublicSign\01数据访问\ChloeORM\bin\Debug\Chloe.Extension.dll
+D:\C#\框架\Wx_PublicSign\01数据访问\ChloeORM\bin\Debug\Chloe.MySql.dll
+D:\C#\框架\Wx_PublicSign\01数据访问\ChloeORM\bin\Debug\MySql.Data.dll
+D:\C#\框架\Wx_PublicSign\01数据访问\ChloeORM\bin\Debug\Newtonsoft.Json.dll
+D:\C#\框架\Wx_PublicSign\01数据访问\ChloeORM\bin\Debug\ApiHelp.pdb
+D:\C#\框架\Wx_PublicSign\01数据访问\ChloeORM\bin\Debug\Chloe.xml
+D:\C#\框架\Wx_PublicSign\01数据访问\ChloeORM\bin\Debug\Chloe.Extension.xml
+D:\C#\框架\Wx_PublicSign\01数据访问\ChloeORM\bin\Debug\Chloe.MySql.xml
+D:\C#\框架\Wx_PublicSign\01数据访问\ChloeORM\bin\Debug\Newtonsoft.Json.xml
+D:\C#\框架\Wx_PublicSign\01数据访问\ChloeORM\obj\Debug\ChloeORM.csprojResolveAssemblyReference.cache
+D:\C#\框架\Wx_PublicSign\01数据访问\ChloeORM\obj\Debug\ChloeORM.dll
+D:\C#\框架\Wx_PublicSign\01数据访问\ChloeORM\obj\Debug\ChloeORM.pdb

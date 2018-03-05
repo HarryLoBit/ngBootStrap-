@@ -1,0 +1,40 @@
+﻿<div ng-controller="MenuModuleCtrl">
+    <div class="wrapper-md">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <p>
+                    菜单配置
+                    <button ng-click="GoAdit(0)" class="btn m-b-xs w-xs btn-primary pull-right">新增</button>
+                </p>
+            </div>
+            <div class="table-responsive">
+                <table ui-jq="dataTable" class="table table-striped m-b-none">
+                    <thead>
+                        <tr>
+                            <th style="width:20%">菜单名称</th>
+                            <th style="width:15%">图标</th>
+                            <th style="width:20%">路由</th>
+                            <th style="width:20%">上级菜单</th>
+                            <th style="width:10%">是否启用</th>
+                            <th style="width:15%">操作</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr ng-repeat="item in items">
+                            <td>{{item.MenuName}}</td>
+                            <td>{{item.Icon}}</td>
+                            <td>{{item.Route}}</td>
+                            <td>{{item.ParentName}}</td>
+                            <td><span class="{{item.Enable==1?'label bg-success':'label bg-warning'}}">{{item.Enable==1?"启用":"禁用"}}</span></td>
+                            <td>
+                                <button class="btn m-b-xs btn-sm btn-success btn-addon">编辑</button>
+                                <button class="btn m-b-xs btn-sm btn-info btn-addon">删除</button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+</div>

@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Chloe.MySql</name>
+    </assembly>
+    <members>
+        <member name="M:Chloe.MySql.DbExpressionHelper.OptimizeDbExpression(Chloe.DbExpressions.DbExpression)">
+            <summary>
+            尝试将 exp 转换成 DbParameterExpression。
+            </summary>
+            <param name="exp"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

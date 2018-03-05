@@ -1,0 +1,256 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Chloe</name>
+    </assembly>
+    <members>
+        <member name="P:Chloe.Core.DbSession.CurrentTransaction">
+            <summary>
+            如果未开启事务，则返回 null
+            </summary>
+        </member>
+        <member name="P:Chloe.Core.InternalAdoSession.DbTransaction">
+            <summary>
+            如果未开启事务，则返回 null
+            </summary>
+        </member>
+        <member name="T:Chloe.DbExpressions.DbColumnAccessExpression">
+            <summary>
+            T.Id
+            </summary>
+        </member>
+        <member name="T:Chloe.DbExpressions.DbColumnSegment">
+            <summary>
+            T.Name as Alias
+            </summary>
+        </member>
+        <member name="P:Chloe.DbExpressions.DbColumnSegment.Body">
+            <summary>
+            T.Name 部分
+            </summary>
+        </member>
+        <member name="P:Chloe.DbExpressions.DbMemberExpression.Expression">
+            <summary>
+            字段或属性的包含对象
+            </summary>
+        </member>
+        <member name="M:Chloe.DbExpressions.DbSqlQueryExpression.#ctor(System.Type)">
+            <summary>
+            
+            </summary>
+            <param name="type">作为子句时，有时候可以指定返回的 Type，如 select A = (select id from users)，(select id from users) 就可以表示拥有一个返回的类型 Int</param>
+        </member>
+        <member name="T:Chloe.DbExpressions.DbTableSegment">
+            <summary>
+            User as T1 , (select * from User) as T1
+            </summary>
+        </member>
+        <member name="P:Chloe.DbExpressions.DbTableSegment.Body">
+            <summary>
+            User、(select * from User)
+            </summary>
+        </member>
+        <member name="P:Chloe.Entity.ColumnAttribute.DbType">
+            <summary>
+            -1 表示未指定确切的值，用该属性的时候务必做 -1 判断。
+            </summary>
+        </member>
+        <member name="P:Chloe.Entity.ColumnAttribute.Length">
+            <summary>
+            -1 表示未指定确切的值，用该属性的时候务必做 -1 判断。
+            </summary>
+        </member>
+        <member name="M:Chloe.InternalExtensions.DbExpressionExtension.TryConvertToParameterExpression(Chloe.DbExpressions.DbMemberExpression,Chloe.DbExpressions.DbParameterExpression@)">
+            <summary>
+            尝试将 exp 转换成 DbParameterExpression。
+            </summary>
+            <param name="exp"></param>
+            <param name="val"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Chloe.InternalExtensions.DbExpressionExtension.ConvertToParameterExpression(Chloe.DbExpressions.DbMemberExpression)">
+            <summary>
+            对 memberExpression 进行求值
+            </summary>
+            <param name="exp"></param>
+            <returns>返回 DbParameterExpression</returns>
+        </member>
+        <member name="M:Chloe.InternalExtensions.DbExpressionExtension.AffirmExpressionRetValueIsNull(Chloe.DbExpressions.DbExpression)">
+            <summary>
+            判定 exp 返回值肯定是 null
+            </summary>
+            <param name="exp"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Chloe.InternalExtensions.DbExpressionExtension.AffirmExpressionRetValueIsNotNull(Chloe.DbExpressions.DbExpression)">
+            <summary>
+            判定 exp 返回值肯定不是 null
+            </summary>
+            <param name="exp"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Chloe.IDbContext.QueryByKey``1(System.Object,System.String,System.Boolean)">
+            <summary>
+            
+            </summary>
+            <typeparam name="TEntity"></typeparam>
+            <param name="key">If the entity just has one primary key, input a value that it's type is same as the primary key. If the entity has multiple keys, input an instance that defines the same properties as the keys like 'new { Key1 = "1", Key2 = "2" }'.</param>
+            <param name="table"></param>
+            <param name="tracking"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Chloe.IDbContext.JoinQuery``2(System.Linq.Expressions.Expression{System.Func{``0,``1,System.Object[]}})">
+            <summary>
+            context.JoinQuery&lt;User, City&gt;((user, city) => new object[] 
+            { 
+                JoinType.LeftJoin, user.CityId == city.Id 
+            })
+            </summary>
+            <typeparam name="T1"></typeparam>
+            <typeparam name="T2"></typeparam>
+            <param name="joinInfo"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Chloe.IDbContext.JoinQuery``3(System.Linq.Expressions.Expression{System.Func{``0,``1,``2,System.Object[]}})">
+            <summary>
+            context.JoinQuery&lt;User, City, Province&gt;((user, city, province) => new object[] 
+            { 
+                JoinType.LeftJoin, user.CityId == city.Id, 
+                JoinType.LeftJoin, city.ProvinceId == province.Id 
+            })
+            </summary>
+            <typeparam name="T1"></typeparam>
+            <typeparam name="T2"></typeparam>
+            <typeparam name="T3"></typeparam>
+            <param name="joinInfo"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Chloe.IDbContext.Insert``1(System.Linq.Expressions.Expression{System.Func{``0}})">
+            <summary>
+            context.Insert&lt;User&gt;(() => new User() { Name = "lu", Age = 18, Gender = Gender.Woman, CityId = 1, OpTime = DateTime.Now })
+            </summary>
+            <typeparam name="TEntity"></typeparam>
+            <param name="content"></param>
+            <returns>It will return null if an entity does not define primary key,other wise return primary key value.</returns>
+        </member>
+        <member name="M:Chloe.IDbContext.InsertRange``1(System.Collections.Generic.List{``0},System.Boolean)">
+            <summary>
+            批量插入操作
+            </summary>
+            <typeparam name="TEntity"></typeparam>
+            <param name="entities"></param>
+            <param name="keepIdentity">是否要把自增属性值插入到数据库</param>
+        </member>
+        <member name="M:Chloe.IDbContext.Update``1(System.Linq.Expressions.Expression{System.Func{``0,System.Boolean}},System.Linq.Expressions.Expression{System.Func{``0,``0}})">
+            <summary>
+            context.Update&lt;User&gt;(a => a.Id == 1, a => new User() { Name = "lu", Age = a.Age + 1, Gender = Gender.Woman, OpTime = DateTime.Now })
+            </summary>
+            <typeparam name="TEntity"></typeparam>
+            <param name="condition"></param>
+            <param name="content"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Chloe.IDbContext.Delete``1(System.Linq.Expressions.Expression{System.Func{``0,System.Boolean}})">
+            <summary>
+            context.Delete&lt;User&gt;(a => a.Id == 1)
+            </summary>
+            <typeparam name="TEntity"></typeparam>
+            <param name="condition"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Chloe.IDbContext.DeleteByKey``1(System.Object,System.String)">
+            <summary>
+            
+            </summary>
+            <typeparam name="TEntity"></typeparam>
+            <param name="key">If the entity just has one primary key, input a value that it's type is same as the primary key. If the entity has multiple keys, input an instance that defines the same properties as the keys like 'new { Key1 = "1", Key2 = "2" }'.</param>
+            <param name="table"></param>
+            <returns></returns>
+        </member>
+        <member name="P:Chloe.IDbSession.CurrentTransaction">
+            <summary>
+            如果未开启事务，则返回 null
+            </summary>
+        </member>
+        <member name="M:Chloe.Infrastructure.MappingTypeSystem.Register(System.Type,System.Data.DbType)">
+            <summary>
+            注册一个需要映射的类型。
+            </summary>
+            <param name="type">新增的映射类型</param>
+            <param name="dbTypeToMap">映射的 DbType。如果是扩展的 DbType，务必对原生的 System.Data.IDataParameter 进行包装，拦截 IDataParameter.DbType 属性的 setter 以对 dbTypeToMap 处理。</param>
+        </member>
+        <member name="P:Chloe.Query.MappingObjectExpression.ConstructorDescriptor">
+            <summary>
+            返回类型
+            </summary>
+        </member>
+        <member name="M:Chloe.Query.MappingObjectExpression.GetMappingMemberExpression(System.Reflection.MemberInfo)">
+            <summary>
+            考虑匿名函数构造函数参数和其只读属性的对应
+            </summary>
+            <param name="memberInfo"></param>
+            <returns></returns>
+        </member>
+        <member name="P:Chloe.Query.Mapping.MappingEntity.MappingMembers">
+            <summary>
+            映射成员集合。以 MemberInfo 为 key，读取 DataReader 时的 Ordinal 为 value
+            </summary>
+        </member>
+        <member name="P:Chloe.Query.Mapping.MappingEntity.ComplexMembers">
+            <summary>
+            复杂类型成员集合。
+            </summary>
+        </member>
+        <member name="M:Chloe.Query.Query`1.CreateAggregateQuery``1(System.Reflection.MethodInfo,System.Collections.Generic.List{System.Linq.Expressions.Expression})">
+            <summary>
+            类<see cref="T:Chloe.Query.Visitors.GeneralExpressionVisitor"/>有引用该方法[反射]
+            </summary>
+            <typeparam name="TResult"></typeparam>
+            <param name="method"></param>
+            <param name="arguments"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Chloe.Query.ResultElement">
+            <summary>
+            查询的结果集
+            </summary>
+        </member>
+        <member name="P:Chloe.Query.ResultElement.InheritOrderings">
+            <summary>
+            Orderings 是否是传承下来的
+            </summary>
+        </member>
+        <member name="P:Chloe.Query.ResultElement.FromTable">
+            <summary>
+            如 takequery 了以后，则 table 的 Expression 类似 (select T.Id.. from User as T),Alias 则为新生成的
+            </summary>
+        </member>
+        <member name="M:Chloe.Query.SelectorExpressionVisitor.VisitMemberAccess(System.Linq.Expressions.MemberExpression)">
+            <summary>
+            a => a.Id   a => a.Name   a => a.User
+            </summary>
+            <param name="exp"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Chloe.Sql.Equals``1(``0,``0)">
+            <summary>
+            比较两个相同类型的对象值是否相等，仅支持在 lambda 表达式树中使用。
+            使用此方法与双等号（==）的区别是：a => Sql.Equals(a.Name, a.XName) 会被翻译成 a.Name == a.XName，而 a => a.Name == a.XName 则会被翻译成 a.Name == a.XName or (a.Name is null and a.XName is null)
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="value1"></param>
+            <param name="value2"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Chloe.Sql.NotEquals``1(``0,``0)">
+            <summary>
+            比较两个相同类型的对象值是否不相等，仅支持在 lambda 表达式树中使用。
+            使用此方法与不等号（!=）的区别是：a => Sql.NotEquals(a.Name, a.XName) 会被翻译成 a.Name &lt;&gt; a.XName，而 a => a.Name != a.XName 则会被翻译成 a.Name &lt;&gt; a.XName or (a.Name is null and a.XName is not null) or (a.Name is not null and a.XName is null)
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="value1"></param>
+            <param name="value2"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

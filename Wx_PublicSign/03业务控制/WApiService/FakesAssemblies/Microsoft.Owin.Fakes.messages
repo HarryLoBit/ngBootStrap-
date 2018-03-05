@@ -1,0 +1,72 @@
+D:\C#\框架\Wx_PublicSign\03业务控制\WApiService\Fakes\Microsoft.Owin.fakes : warning : 无法为 Owin.AppBuilderUseExtensions 生成存根: 类型已密封。
+D:\C#\框架\Wx_PublicSign\03业务控制\WApiService\Fakes\Microsoft.Owin.fakes : warning : 无法为 Microsoft.Owin.HostString 生成存根: 类型是一个值类型。
+D:\C#\框架\Wx_PublicSign\03业务控制\WApiService\Fakes\Microsoft.Owin.fakes : warning : 无法为 Microsoft.Owin.OwinStartupAttribute 生成存根: 类型已密封。
+D:\C#\框架\Wx_PublicSign\03业务控制\WApiService\Fakes\Microsoft.Owin.fakes : warning : 无法为 Owin.PipelineStage 生成存根: 类型是一个值类型。
+D:\C#\框架\Wx_PublicSign\03业务控制\WApiService\Fakes\Microsoft.Owin.fakes : warning : 无法为 Owin.MapExtensions 生成存根: 类型已密封。
+D:\C#\框架\Wx_PublicSign\03业务控制\WApiService\Fakes\Microsoft.Owin.fakes : warning : 无法为 Owin.MapWhenExtensions 生成存根: 类型已密封。
+D:\C#\框架\Wx_PublicSign\03业务控制\WApiService\Fakes\Microsoft.Owin.fakes : warning : 无法为 Microsoft.Owin.OwinConstants 生成存根: 类型已密封。
+D:\C#\框架\Wx_PublicSign\03业务控制\WApiService\Fakes\Microsoft.Owin.fakes : warning : 无法为 Microsoft.Owin.Infrastructure.HeaderSegment 生成存根: 类型是一个值类型。
+D:\C#\框架\Wx_PublicSign\03业务控制\WApiService\Fakes\Microsoft.Owin.fakes : warning : 无法为 Microsoft.Owin.Infrastructure.HeaderSegmentCollection 生成存根: 类型是一个值类型。
+D:\C#\框架\Wx_PublicSign\03业务控制\WApiService\Fakes\Microsoft.Owin.fakes : warning : 无法为 Microsoft.Owin.Infrastructure.StringSegment 生成存根: 类型是一个值类型。
+D:\C#\框架\Wx_PublicSign\03业务控制\WApiService\Fakes\Microsoft.Owin.fakes : warning : 无法为 Microsoft.Owin.Infrastructure.OwinHelpers 生成存根: 类型已密封。
+D:\C#\框架\Wx_PublicSign\03业务控制\WApiService\Fakes\Microsoft.Owin.fakes : warning : 无法为 Microsoft.Owin.PathString 生成存根: 类型是一个值类型。
+D:\C#\框架\Wx_PublicSign\03业务控制\WApiService\Fakes\Microsoft.Owin.fakes : warning : 无法为 Microsoft.Owin.QueryString 生成存根: 类型是一个值类型。
+D:\C#\框架\Wx_PublicSign\03业务控制\WApiService\Fakes\Microsoft.Owin.fakes : warning : 无法为 Microsoft.Owin.Resources 生成存根: 类型对 exported or assembly(Microsoft.Owin.Fakes) 不可见。
+D:\C#\框架\Wx_PublicSign\03业务控制\WApiService\Fakes\Microsoft.Owin.fakes : warning : 无法为 Microsoft.Owin.Builder.Constants 生成存根: 类型已密封。
+D:\C#\框架\Wx_PublicSign\03业务控制\WApiService\Fakes\Microsoft.Owin.fakes : warning : 无法为 Microsoft.Owin.Builder.NotFound 生成存根: 类型对 exported or assembly(Microsoft.Owin.Fakes) 不可见。
+D:\C#\框架\Wx_PublicSign\03业务控制\WApiService\Fakes\Microsoft.Owin.fakes : warning : 无法为 Microsoft.Owin.Infrastructure.Constants 生成存根: 类型已密封。
+D:\C#\框架\Wx_PublicSign\03业务控制\WApiService\Fakes\Microsoft.Owin.fakes : warning : 无法为 Microsoft.Owin.Infrastructure.WebUtilities 生成存根: 类型已密封。
+D:\C#\框架\Wx_PublicSign\03业务控制\WApiService\Fakes\Microsoft.Owin.fakes : warning : 无法为 Microsoft.Owin.Extensions.IntegratedPipelineExtensions 生成存根: 类型已密封。
+D:\C#\框架\Wx_PublicSign\03业务控制\WApiService\Fakes\Microsoft.Owin.fakes : warning : 无法为 Microsoft.Owin.Logging.AppBuilderLoggerExtensions 生成存根: 类型已密封。
+D:\C#\框架\Wx_PublicSign\03业务控制\WApiService\Fakes\Microsoft.Owin.fakes : warning : 无法为 Microsoft.Owin.BuilderProperties.Address 生成存根: 类型是一个值类型。
+D:\C#\框架\Wx_PublicSign\03业务控制\WApiService\Fakes\Microsoft.Owin.fakes : warning : 无法为 Microsoft.Owin.BuilderProperties.AddressCollection 生成存根: 类型是一个值类型。
+D:\C#\框架\Wx_PublicSign\03业务控制\WApiService\Fakes\Microsoft.Owin.fakes : warning : 无法为 Microsoft.Owin.BuilderProperties.AppProperties 生成存根: 类型是一个值类型。
+D:\C#\框架\Wx_PublicSign\03业务控制\WApiService\Fakes\Microsoft.Owin.fakes : warning : 无法为 Microsoft.Owin.BuilderProperties.Capabilities 生成存根: 类型是一个值类型。
+D:\C#\框架\Wx_PublicSign\03业务控制\WApiService\Fakes\Microsoft.Owin.fakes : warning : 无法为 Microsoft.Owin.Logging.LoggerFactory 生成存根: 类型已密封。
+D:\C#\框架\Wx_PublicSign\03业务控制\WApiService\Fakes\Microsoft.Owin.fakes : warning : 无法为 Microsoft.Owin.Builder.AppBuilderExtensions 生成存根: 类型已密封。
+D:\C#\框架\Wx_PublicSign\03业务控制\WApiService\Fakes\Microsoft.Owin.fakes : warning : 无法为 Microsoft.Owin.Helpers.WebHelpers 生成存根: 类型已密封。
+D:\C#\框架\Wx_PublicSign\03业务控制\WApiService\Fakes\Microsoft.Owin.fakes : warning : 无法为 Microsoft.Owin.Infrastructure.AppFuncTransition 生成存根: 类型已密封。
+D:\C#\框架\Wx_PublicSign\03业务控制\WApiService\Fakes\Microsoft.Owin.fakes : warning : 无法为 Microsoft.Owin.Infrastructure.OwinMiddlewareTransition 生成存根: 类型已密封。
+D:\C#\框架\Wx_PublicSign\03业务控制\WApiService\Fakes\Microsoft.Owin.fakes : warning : 无法为 Microsoft.Owin.Infrastructure.SignatureConversions 生成存根: 类型已密封。
+D:\C#\框架\Wx_PublicSign\03业务控制\WApiService\Fakes\Microsoft.Owin.fakes : warning : 无法为 Microsoft.Owin.Security.IAuthenticationManager 生成存根: method System.Void Microsoft.Owin.Security.IAuthenticationManager.SignIn(Microsoft.Owin.Security.AuthenticationProperties properties, System.Security.Claims.ClaimsIdentity[] identities) unstubbable: 方法是抽象的，因此无法用作存根，类型 System.Security.Claims.ClaimsIdentity[] 在目标框架版本中不可用。
+D:\C#\框架\Wx_PublicSign\03业务控制\WApiService\Fakes\Microsoft.Owin.fakes : warning : 无法为 Microsoft.Owin.Security.AuthenticationManager 生成存根: 类型对 exported or assembly(Microsoft.Owin.Fakes) 不可见。
+D:\C#\框架\Wx_PublicSign\03业务控制\WApiService\Fakes\Microsoft.Owin.fakes : warning : 无法为 Microsoft.Owin.Logging.DiagnosticsLogger 生成存根: 类型对 exported or assembly(Microsoft.Owin.Fakes) 不可见。
+D:\C#\框架\Wx_PublicSign\03业务控制\WApiService\Fakes\Microsoft.Owin.fakes : warning : 无法为 Microsoft.Owin.Logging.LoggerExtensions 生成存根: 类型已密封。
+D:\C#\框架\Wx_PublicSign\03业务控制\WApiService\Fakes\Microsoft.Owin.fakes : warning : 无法为 Microsoft.Owin.Extensions.UseHandlerMiddleware+<>c__DisplayClass3 生成填充码: 类型不受支持，因为存在内部限制。
+D:\C#\框架\Wx_PublicSign\03业务控制\WApiService\Fakes\Microsoft.Owin.fakes : warning : 无法为 Microsoft.Owin.IReadableStringCollection 生成填充码: 类型是一个接口。
+D:\C#\框架\Wx_PublicSign\03业务控制\WApiService\Fakes\Microsoft.Owin.fakes : warning : 无法为 Microsoft.Owin.IFormCollection 生成填充码: 类型是一个接口。
+D:\C#\框架\Wx_PublicSign\03业务控制\WApiService\Fakes\Microsoft.Owin.fakes : warning : 无法为 Microsoft.Owin.IHeaderDictionary 生成填充码: 类型是一个接口。
+D:\C#\框架\Wx_PublicSign\03业务控制\WApiService\Fakes\Microsoft.Owin.fakes : warning : 无法为 Microsoft.Owin.Infrastructure.ICookieManager 生成填充码: 类型是一个接口。
+D:\C#\框架\Wx_PublicSign\03业务控制\WApiService\Fakes\Microsoft.Owin.fakes : warning : 无法为 Microsoft.Owin.Infrastructure.ChunkingCookieManager+<>c__DisplayClassc 生成填充码: 类型不受支持，因为存在内部限制。
+D:\C#\框架\Wx_PublicSign\03业务控制\WApiService\Fakes\Microsoft.Owin.fakes : warning : 无法为 Microsoft.Owin.IOwinContext 生成填充码: 类型是一个接口。
+D:\C#\框架\Wx_PublicSign\03业务控制\WApiService\Fakes\Microsoft.Owin.fakes : warning : 无法为 Microsoft.Owin.IOwinRequest 生成填充码: 类型是一个接口。
+D:\C#\框架\Wx_PublicSign\03业务控制\WApiService\Fakes\Microsoft.Owin.fakes : warning : 无法为 Microsoft.Owin.IOwinResponse 生成填充码: 类型是一个接口。
+D:\C#\框架\Wx_PublicSign\03业务控制\WApiService\Fakes\Microsoft.Owin.fakes : warning : 无法为 Owin.PipelineStage 生成填充码: 类型是一个枚举。
+D:\C#\框架\Wx_PublicSign\03业务控制\WApiService\Fakes\Microsoft.Owin.fakes : warning : 无法为 Microsoft.Owin.Mapping.MapMiddleware+<Invoke>d__0 生成填充码: 类型不受支持，因为存在内部限制。
+D:\C#\框架\Wx_PublicSign\03业务控制\WApiService\Fakes\Microsoft.Owin.fakes : warning : 无法为 Microsoft.Owin.Mapping.MapWhenMiddleware+<Invoke>d__0 生成填充码: 类型不受支持，因为存在内部限制。
+D:\C#\框架\Wx_PublicSign\03业务控制\WApiService\Fakes\Microsoft.Owin.fakes : warning : 无法为 Microsoft.Owin.OwinConstants 生成填充码: 类型对 exported or assembly(Microsoft.Owin.Fakes) 不可见。
+D:\C#\框架\Wx_PublicSign\03业务控制\WApiService\Fakes\Microsoft.Owin.fakes : warning : 无法为 Microsoft.Owin.Infrastructure.HeaderSegment 生成填充码: 类型对 exported or assembly(Microsoft.Owin.Fakes) 不可见。
+D:\C#\框架\Wx_PublicSign\03业务控制\WApiService\Fakes\Microsoft.Owin.fakes : warning : 无法为 Microsoft.Owin.Infrastructure.HeaderSegmentCollection 生成填充码: 类型对 exported or assembly(Microsoft.Owin.Fakes) 不可见。
+D:\C#\框架\Wx_PublicSign\03业务控制\WApiService\Fakes\Microsoft.Owin.fakes : warning : 无法为 Microsoft.Owin.Infrastructure.StringSegment 生成填充码: 类型对 exported or assembly(Microsoft.Owin.Fakes) 不可见。
+D:\C#\框架\Wx_PublicSign\03业务控制\WApiService\Fakes\Microsoft.Owin.fakes : warning : 无法为 Microsoft.Owin.Infrastructure.OwinHelpers 生成填充码: 类型对 exported or assembly(Microsoft.Owin.Fakes) 不可见。
+D:\C#\框架\Wx_PublicSign\03业务控制\WApiService\Fakes\Microsoft.Owin.fakes : warning : 无法为 Microsoft.Owin.Resources 生成填充码: 类型对 exported or assembly(Microsoft.Owin.Fakes) 不可见。
+D:\C#\框架\Wx_PublicSign\03业务控制\WApiService\Fakes\Microsoft.Owin.fakes : warning : 无法为 Microsoft.Owin.Builder.AppBuilder+<>c__DisplayClass9 生成填充码: 类型不受支持，因为存在内部限制。
+D:\C#\框架\Wx_PublicSign\03业务控制\WApiService\Fakes\Microsoft.Owin.fakes : warning : 无法为 Microsoft.Owin.Builder.AppBuilder+<>c__DisplayClassc 生成填充码: 类型不受支持，因为存在内部限制。
+D:\C#\框架\Wx_PublicSign\03业务控制\WApiService\Fakes\Microsoft.Owin.fakes : warning : 无法为 Microsoft.Owin.Builder.Constants 生成填充码: 类型对 exported or assembly(Microsoft.Owin.Fakes) 不可见。
+D:\C#\框架\Wx_PublicSign\03业务控制\WApiService\Fakes\Microsoft.Owin.fakes : warning : 无法为 Microsoft.Owin.Builder.NotFound 生成填充码: 类型对 exported or assembly(Microsoft.Owin.Fakes) 不可见。
+D:\C#\框架\Wx_PublicSign\03业务控制\WApiService\Fakes\Microsoft.Owin.fakes : warning : 无法为 Microsoft.Owin.Infrastructure.Constants 生成填充码: 类型对 exported or assembly(Microsoft.Owin.Fakes) 不可见。
+D:\C#\框架\Wx_PublicSign\03业务控制\WApiService\Fakes\Microsoft.Owin.fakes : warning : 无法为 Microsoft.Owin.Infrastructure.ISystemClock 生成填充码: 类型是一个接口。
+D:\C#\框架\Wx_PublicSign\03业务控制\WApiService\Fakes\Microsoft.Owin.fakes : warning : 无法为 Microsoft.Owin.ResponseCookieCollection+<>c__DisplayClass3 生成填充码: 类型不受支持，因为存在内部限制。
+D:\C#\框架\Wx_PublicSign\03业务控制\WApiService\Fakes\Microsoft.Owin.fakes : warning : 无法为 Microsoft.Owin.ResponseCookieCollection+<>c__DisplayClasse 生成填充码: 类型不受支持，因为存在内部限制。
+D:\C#\框架\Wx_PublicSign\03业务控制\WApiService\Fakes\Microsoft.Owin.fakes : warning : 无法为 Microsoft.Owin.Logging.AppBuilderLoggerExtensions+<>c__DisplayClass1 生成填充码: 类型不受支持，因为存在内部限制。
+D:\C#\框架\Wx_PublicSign\03业务控制\WApiService\Fakes\Microsoft.Owin.fakes : warning : 无法为 Microsoft.Owin.Logging.AppBuilderLoggerExtensions+WrapLoggerFactory 生成填充码: 类型对 exported or assembly(Microsoft.Owin.Fakes) 不可见。
+D:\C#\框架\Wx_PublicSign\03业务控制\WApiService\Fakes\Microsoft.Owin.fakes : warning : 无法为 Microsoft.Owin.Logging.AppBuilderLoggerExtensions+WrappingLogger 生成填充码: 类型对 exported or assembly(Microsoft.Owin.Fakes) 不可见。
+D:\C#\框架\Wx_PublicSign\03业务控制\WApiService\Fakes\Microsoft.Owin.fakes : warning : 无法为 Microsoft.Owin.Logging.ILoggerFactory 生成填充码: 类型是一个接口。
+D:\C#\框架\Wx_PublicSign\03业务控制\WApiService\Fakes\Microsoft.Owin.fakes : warning : 无法为 Microsoft.Owin.Logging.ILogger 生成填充码: 类型是一个接口。
+D:\C#\框架\Wx_PublicSign\03业务控制\WApiService\Fakes\Microsoft.Owin.fakes : warning : 无法为 Microsoft.Owin.BuilderProperties.AddressCollection+<GetEnumerator>d__0 生成填充码: 类型不受支持，因为存在内部限制。
+D:\C#\框架\Wx_PublicSign\03业务控制\WApiService\Fakes\Microsoft.Owin.fakes : warning : 无法为 Microsoft.Owin.Infrastructure.AppFuncTransition 生成填充码: 类型对 exported or assembly(Microsoft.Owin.Fakes) 不可见。
+D:\C#\框架\Wx_PublicSign\03业务控制\WApiService\Fakes\Microsoft.Owin.fakes : warning : 无法为 Microsoft.Owin.Infrastructure.OwinMiddlewareTransition 生成填充码: 类型对 exported or assembly(Microsoft.Owin.Fakes) 不可见。
+D:\C#\框架\Wx_PublicSign\03业务控制\WApiService\Fakes\Microsoft.Owin.fakes : warning : 无法为 Microsoft.Owin.OwinRequest+<ReadFormAsync>d__0 生成填充码: 类型不受支持，因为存在内部限制。
+D:\C#\框架\Wx_PublicSign\03业务控制\WApiService\Fakes\Microsoft.Owin.fakes : warning : 无法为 Microsoft.Owin.Security.IAuthenticationManager 生成填充码: 类型是一个接口。
+D:\C#\框架\Wx_PublicSign\03业务控制\WApiService\Fakes\Microsoft.Owin.fakes : warning : 无法为 Microsoft.Owin.Security.AuthenticationManager 生成填充码: 类型对 exported or assembly(Microsoft.Owin.Fakes) 不可见。
+D:\C#\框架\Wx_PublicSign\03业务控制\WApiService\Fakes\Microsoft.Owin.fakes : warning : 无法为 Microsoft.Owin.Logging.DiagnosticsLogger 生成填充码: 类型对 exported or assembly(Microsoft.Owin.Fakes) 不可见。

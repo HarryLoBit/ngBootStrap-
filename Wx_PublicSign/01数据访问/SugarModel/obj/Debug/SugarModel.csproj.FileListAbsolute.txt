@@ -1,0 +1,10 @@
+D:\C#\框架\Wx_PublicSign\01数据访问\SugarModel\bin\Debug\SugarModel.dll
+D:\C#\框架\Wx_PublicSign\01数据访问\SugarModel\bin\Debug\SugarModel.pdb
+D:\C#\框架\Wx_PublicSign\01数据访问\SugarModel\bin\Debug\Chloe.dll
+D:\C#\框架\Wx_PublicSign\01数据访问\SugarModel\bin\Debug\Chloe.Extension.dll
+D:\C#\框架\Wx_PublicSign\01数据访问\SugarModel\bin\Debug\Newtonsoft.Json.dll
+D:\C#\框架\Wx_PublicSign\01数据访问\SugarModel\bin\Debug\Chloe.xml
+D:\C#\框架\Wx_PublicSign\01数据访问\SugarModel\bin\Debug\Chloe.Extension.xml
+D:\C#\框架\Wx_PublicSign\01数据访问\SugarModel\obj\Debug\SugarModel.csprojResolveAssemblyReference.cache
+D:\C#\框架\Wx_PublicSign\01数据访问\SugarModel\obj\Debug\SugarModel.dll
+D:\C#\框架\Wx_PublicSign\01数据访问\SugarModel\obj\Debug\SugarModel.pdb
